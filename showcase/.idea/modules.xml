@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/showcase.iml" filepath="$PROJECT_DIR$/showcase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/tio-examples-showcase-client.iml" filepath="$PROJECT_DIR$/client/tio-examples-showcase-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/tio-examples-showcase-common.iml" filepath="$PROJECT_DIR$/common/tio-examples-showcase-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server/tio-examples-showcase-server.iml" filepath="$PROJECT_DIR$/server/tio-examples-showcase-server.iml" />
+    </modules>
+  </component>
+</project>

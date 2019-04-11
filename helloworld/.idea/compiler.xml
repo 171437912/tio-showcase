@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tio-examples-helloworld-client" />
+        <module name="tio-examples-helloworld-common" />
+        <module name="tio-examples-helloworld-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="helloworld" target="1.5" />
+      <module name="tio-examples-helloworld-client" target="1.8" />
+      <module name="tio-examples-helloworld-common" target="1.8" />
+      <module name="tio-examples-helloworld-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tio-examples-helloworld-client" options="-g" />
+      <module name="tio-examples-helloworld-common" options="-g" />
+      <module name="tio-examples-helloworld-server" options="-g" />
+    </option>
+  </component>
+</project>
